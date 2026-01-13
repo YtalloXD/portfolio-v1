@@ -34,13 +34,48 @@ body {
   /* width: 100%; */
 }
 
+a {
+  color: var(--color-red-50); /* Set the color of the link text */
+  text-decoration: none; /* Remove the default underline */
+  transition: color 0.3s ease; /* Add a smooth transition for the hover effect */
+}
+
+a:hover {
+  color: var(--color-cyan-600); /* Change the color of the link text on hover */
+}
+
+a:hover.whatsapp {
+  color: var(--color-green-600);
+}
+
+a:hover.github {
+  color: var(--color-gray-400);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+
+/* ml-px */
+
+.contact-item span {
+  margin-left: 12px;
+}
+
 .portfolio-card {
   /* background: var(--color-cyan-900); */
   background: var(--cor-gradiente-fundo);
-  border-radius: 50px;
+  border-radius: 110px;
+  corner-shape: squircle;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 0, 0, 0.05);
   width: 100%;
-  /* max-width: 3000px; */
+  max-width: 3000px;
   padding: 40px;
   z-index: 10;
 }

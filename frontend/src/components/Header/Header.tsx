@@ -19,7 +19,7 @@ export default function Header() {
       <div className="header_center">
         <ul className="header_links">
           <li>
-            <a href="/home">Início</a>
+            <a href="#home">Início</a>
           </li>
           <li>
             <a href="#servicos">Imagens</a>
